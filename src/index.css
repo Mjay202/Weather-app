@@ -1,13 +1,57 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  margin: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.9864320728291317) 6%, rgba(0,212,255,1) 89%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-size: 100%;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.location-header{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.address h1{
+  font-size: 3rem;
+}
+
+.wth-main h3{
+  font-size: 1.2rem;
+}
+
+.temp-now {
+  font-size: 3rem;
+}
+
+.f-text {
+  font-size: 1rem;
+}
+
+.weather-data h3{
+  font-size: 1.2rem;
+}
+
+.weather-data h5{
+  font-size: 0.7rem;
+}
+
+.h-text {
+  font-size: 1rem;
+}
+
+.w-data {
+  /* background-image: url(./images/Thunder.gif); */
+  border-radius:1rem;
+  background-repeat:round;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
 }
