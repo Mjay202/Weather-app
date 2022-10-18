@@ -17,8 +17,13 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.search{
+  border-radius: 1rem;
+  width: 50%;
+}
 .address h1{
-  font-size: 3rem;
+  font-size: 1.7rem;
+  font-weight: bold;
 }
 
 .wth-main h3{
@@ -51,7 +56,15 @@ body {
   background-repeat:round;
 }
 
+.w-today .card{
+  width: 25vw;
+  height: 12vh;
+}
 .icon {
   width: 2rem;
   height: 2rem;
+}
+
+footer h4 {
+  font-size: 0.7rem;
 }
